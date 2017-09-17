@@ -120,7 +120,7 @@
     <script>
     $(document).ready(function) {
       //навигация - плавный скроллинг к якорю
-      $(".slowly").on("click", "a", function(event) {
+      $(".slowly").on("click", function(event) {
           //отменяем стандартную обработку нажатия по ссылке
           event.preventDefault();
           //забираем идентификатор бока с атрибута href
